@@ -115,24 +115,49 @@
 <h4>Поля класса</h4>
 <table border="1" cellpadding="5" cellspacing="0">
     <tr>
-        <th>Поле</th>
+        <th>Объект</th>
         <th>Тип</th>
-        <th>Описание</th>
+        <th>Назначение</th>
     </tr>
     <tr>
-        <td><code>array</code></td>
-        <td><code>list[int]</code></td>
-        <td>Одномерный массив чисел</td>
+        <td>n</td>
+        <td>int</td>
+        <td>Размер одномерного массива</td>
     </tr>
     <tr>
-        <td><code>sum_positive</code></td>
-        <td><code>int</code></td>
+        <td>arr</td>
+        <td>list[int]</td>
+        <td>Одномерный массив целых чисел</td>
+    </tr>
+    <tr>
+        <td>i</td>
+        <td>int</td>
+        <td>Индекс текущего элемента массива</td>
+    </tr>
+    <tr>
+        <td>value</td>
+        <td>int</td>
+        <td>Очередной вводимый элемент массива</td>
+    </tr>
+    <tr>
+        <td>sum_pos</td>
+        <td>int</td>
         <td>Сумма положительных элементов массива</td>
     </tr>
     <tr>
-        <td><code>count_positive</code></td>
-        <td><code>int</code></td>
+        <td>count_pos</td>
+        <td>int</td>
         <td>Количество положительных элементов массива</td>
+    </tr>
+    <tr>
+        <td>find_positive_sum_and_count(arr)</td>
+        <td>функция</td>
+        <td>Выполняет обработку массива и возвращает сумму и количество положительных элементов</td>
+    </tr>
+    <tr>
+        <td>main()</td>
+        <td>функция</td>
+        <td>Организует ввод данных, проверку размера массива, вызов обработки и вывод результата</td>
     </tr>
 </table>
 
