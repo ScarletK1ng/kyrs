@@ -19,19 +19,44 @@
     </thead>
     <tbody>
         <tr>
-            <td><code>array</code></td>
-            <td><code>list[int]</code></td>
-            <td>Одномерный массив чисел</td>
+            <td><code>n</code></td>
+            <td><code>int</code></td>
+            <td>Размер одномерного массива</td>
         </tr>
         <tr>
-            <td><code>sum_positive</code></td>
+            <td><code>arr</code></td>
+            <td><code>list[int]</code></td>
+            <td>Одномерный массив целых чисел</td>
+        </tr>
+        <tr>
+            <td><code>i</code></td>
+            <td><code>int</code></td>
+            <td>Индекс текущего элемента массива</td>
+        </tr>
+        <tr>
+            <td><code>value</code></td>
+            <td><code>int</code></td>
+            <td>Очередной вводимый элемент массива</td>
+        </tr>
+        <tr>
+            <td><code>sum_pos</code></td>
             <td><code>int</code></td>
             <td>Сумма положительных элементов массива</td>
         </tr>
         <tr>
-            <td><code>count_positive</code></td>
+            <td><code>count_pos</code></td>
             <td><code>int</code></td>
             <td>Количество положительных элементов массива</td>
+        </tr>
+        <tr>
+            <td><code>find_positive_sum_and_count(arr)</code></td>
+            <td><code>функция</code></td>
+            <td>Выполняет обработку массива и возвращает сумму и количество положительных элиментов</td>
+        </tr>
+        <tr>
+            <td><code>main()</code></td>
+            <td><code>функция</code></td>
+            <td>Организует ввод данных, проверку размера массива, вызов обработки и вывод результата</td>
         </tr>
     </tbody>
 </table>
