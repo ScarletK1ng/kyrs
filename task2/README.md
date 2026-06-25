@@ -65,8 +65,7 @@
         <tr>
             <th>№</th>
             <th>Исходные данные</th>
-            <th>Ожидаемая сумма</th>
-            <th>Ожидаемое количество</th>
+            <th>Ожидаемый результат</th>
             <th>Что проверяется</th>
         </tr>
     </thead>
@@ -75,13 +74,11 @@
             <td>1</td>
             <td><code>N = 5, A = [1, -2, 3, 0, 4]</code></td>
             <td><code>8</code></td>
-            <td><code>3</code></td>
             <td>Смешанный массив</td>
         </tr>
         <tr>
             <td>2</td>
             <td><code>N = 4, A = [-1, -5, 0, -3]</code></td>
-            <td><code>0</code></td>
             <td><code>0</code></td>
             <td>Нету положительных элементов</td>
         </tr>
@@ -89,13 +86,11 @@
             <td>3</td>
             <td><code>N = 3, A = [2, 7, 10]</code></td>
             <td><code>19</code></td>
-            <td><code>3</code></td>
             <td>Только положительные элементы</td>
         </tr>
         <tr>
             <td>4</td>
             <td><code>N = 5, A = [0, 0, 0, 0, 0]</code></td>
-            <td><code>0</code></td>
             <td><code>0</code></td>
             <td>Только нулевые элементы</td>
         </tr>
@@ -103,13 +98,11 @@
             <td>5</td>
             <td><code>N = 1, A = [9]</code></td>
             <td><code>9</code></td>
-            <td><code>1</code></td>
             <td>Один положительный элемент</td>
         </tr>
         <tr>
             <td>6</td>
             <td><code>N = 1, A = [-9]</code></td>
-            <td><code>0</code></td>
             <td><code>0</code></td>
             <td>Один отрицательный элемент</td>
         </tr>
